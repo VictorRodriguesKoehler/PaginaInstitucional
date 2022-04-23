@@ -2,8 +2,7 @@
 <v-container app class="serv">
   <h1>Direito Trabalhista</h1>
   <div class="intro">
-  <v-img class="img" src="https://img.freepik.com/free-photo/group-people-working-out-business-plan-office_1303-15768.jpg?t=st=1648665318~exp=1648665918~hmac=347976f7b4f182da2ab01dd97b09e6346c17e1346f106c8d3ff8ee1f1011a601&w=996"></v-img>
-  <p>Possuímos profissionais qualificados para orientar e prestar assistência jurídica com excelência na busca da defesa dos direitos dos trabalhadores.<br> <br> trabalho é voltado pela busca de direitos sonegados, resgate da dignidade do trabalhador e reparação indenizatória por ofensas morais e violações sofridas durante a relação de trabalho. 
+  <p>Possuímos profissionais qualificados para orientar e prestar assistência jurídica com excelência na busca da defesa dos direitos dos trabalhadores.<br> <br> Trabalho é voltado pela busca de direitos sonegados, resgate da dignidade do trabalhador e reparação indenizatória por ofensas morais e violações sofridas durante a relação de trabalho. 
   </p>
   </div>
   <v-card class="card">
@@ -64,9 +63,6 @@ export default {
   margin-top: 20px;
 }
 
-h1{
-  text-align: center;
-  }
 
 .img{
   width: 40%;
@@ -75,13 +71,19 @@ h1{
   margin-bottom: 20px;
 }
 
+p{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+}
+
 @media screen and (max-width: 655px){
 .intro{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: center;
 }
 }
 </style>

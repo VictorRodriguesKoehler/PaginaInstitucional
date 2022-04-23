@@ -8,7 +8,7 @@
     >
       <v-app-bar-nav-icon @click="drawer = true" ></v-app-bar-nav-icon>
 
-      <v-toolbar-title><span class="title">Koehler</span> - Acessoria Jurídica</v-toolbar-title>
+      <v-toolbar-title> Acessoria Jurídica</v-toolbar-title>
     </v-app-bar>
 
     <v-navigation-drawer
